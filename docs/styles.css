@@ -1,0 +1,197 @@
+:root {
+    --primary: #5433ff;
+    --accent: #20bdff;
+    --dark: #151515;
+    --light: #ffffff;
+    --bg: #f7f9fc;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "Segoe UI", Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg);
+    color: var(--dark);
+}
+
+header {
+    background: var(--light);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: var(--light);
+    text-align: center;
+    padding: 5rem 1rem;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--light);
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta:hover {
+    background: var(--accent);
+}
+
+.cta-outline {
+    background: transparent;
+    border: 2px solid var(--light);
+    color: var(--light);
+}
+
+.cta-outline:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: var(--primary);
+    text-align: center;
+    margin-top: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.grid div {
+    background: var(--light);
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.features .grid div {
+    text-align: center;
+}
+.grid div i {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.why .grid div {
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+}
+.why .grid div i {
+    margin-bottom: 0.5rem;
+}
+
+.flow .steps {
+    list-style: none;
+    max-width: 800px;
+    margin: 2rem auto 0;
+    padding: 0;
+    counter-reset: step;
+}
+
+.flow .steps li {
+    counter-increment: step;
+    background: var(--light);
+    padding: 1rem 1.5rem;
+    border-left: 4px solid var(--primary);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.flow .steps li::before {
+    content: counter(step) ". ";
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.call {
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: var(--light);
+    padding: 3rem 1rem;
+}
+
+.call a {
+    color: var(--light);
+}
+
+footer {
+    background: var(--dark);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.pricing .grid div {
+    border-top: 3px solid var(--primary);
+}
+
+.faq .accordion p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq .accordion p + p {
+    margin-top: 1rem;
+}
