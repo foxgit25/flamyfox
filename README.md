@@ -4,9 +4,9 @@ Questo repository contiene un semplice sito web di presentazione per **PayLixir*
 
 ## Contenuto
 
-- `paylixir/index.html` - la pagina principale del sito
-- `paylixir/styles.css`  - foglio di stile di base
+- `docs/index.html` - la pagina principale del sito
+- `docs/styles.css`  - foglio di stile di base
 
 ## Come visualizzare il sito
 
-Per visualizzare la demo apri `paylixir/index.html` con un browser moderno. In alternativa puoi attivare GitHub Pages puntando alla cartella `paylixir/` per avere un anteprima online.
+Per visualizzare la demo apri `docs/index.html` con un browser moderno. In alternativa puoi attivare GitHub Pages puntando alla cartella `docs/` per avere un anteprima online.
