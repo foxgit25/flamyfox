@@ -1,12 +1,12 @@
-# PayLixir Web Demo
+# PayLixir Demo Website
 
-Questo repository contiene un semplice sito web di presentazione per **PayLixir**, un Gateway di Pagamento a livello globale.
+Questo repository contiene una versione di esempio del sito di presentazione di **PayLixir**, un Gateway di Pagamento a livello globale.
 
-## Contenuto
+Il sito si trova nella cartella `docs/` ed è pensato per essere pubblicato tramite GitHub Pages oppure visualizzato localmente aprendo `index.html` con un qualsiasi browser moderno.
 
-- `docs/index.html` - la pagina principale del sito
-- `docs/styles.css`  - foglio di stile di base
+## Struttura
+- `docs/index.html` – pagina principale con le sezioni descrittive
+- `docs/styles.css`  – foglio di stile responsivo e moderno
 
-## Come visualizzare il sito
-
-Per visualizzare la demo apri `docs/index.html` con un browser moderno. In alternativa puoi attivare GitHub Pages puntando alla cartella `docs/` per avere un anteprima online.
+## Anteprima
+Per un'anteprima rapida è sufficiente aprire `docs/index.html`. In alternativa è possibile abilitare GitHub Pages puntando alla directory `docs/` e ottenere così una versione online del sito.
