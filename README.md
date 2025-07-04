@@ -4,6 +4,8 @@ Questo repository contiene una versione di esempio del sito di presentazione di 
 
 Il sito si trova nella cartella `docs/` ed è pensato per essere pubblicato tramite GitHub Pages oppure visualizzato localmente aprendo `index.html` con un qualsiasi browser moderno.
 
+Il layout riprende lo stile di siti moderni come adyen.com con un'ampia sezione hero, una navigazione essenziale e varie sezioni descrittive.
+
 ## Struttura
 - `docs/index.html` – pagina principale con le sezioni descrittive
 - `docs/styles.css`  – foglio di stile responsivo e moderno

@@ -7,40 +7,49 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <h1>PayLixir</h1>
-        <p>Il tuo gateway di pagamento globale</p>
-        <a href="#chi-siamo" class="cta">Scopri di più</a>
+    <header>
+        <div class="container">
+            <h1 class="logo">PayLixir</h1>
+            <nav>
+                <ul>
+                    <li><a href="#chi-siamo">Chi siamo</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#sicurezza">Sicurezza</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#chi-siamo">Chi siamo</a></li>
-            <li><a href="#caratteristiche">Caratteristiche</a></li>
-            <li><a href="#sicurezza">Sicurezza</a></li>
-            <li><a href="#contatti">Contatti</a></li>
-        </ul>
-    </nav>
-
-    <section id="chi-siamo">
-        <h2>Chi siamo</h2>
-        <p>PayLixir è una piattaforma pensata per semplificare i pagamenti internazionali. Offriamo strumenti avanzati per gestire transazioni sicure e veloci in tutto il mondo.</p>
+    <section class="hero">
+        <h2>Gateway di pagamento globale</h2>
+        <p>Soluzioni rapide e sicure per il tuo business</p>
+        <a href="#contatti" class="cta">Richiedi una demo</a>
     </section>
 
-    <section id="caratteristiche">
-        <h2>Caratteristiche</h2>
-        <div class="features-grid">
+    <section id="chi-siamo" class="intro">
+        <h2>Chi siamo</h2>
+        <p>PayLixir nasce per semplificare i pagamenti internazionali con tecnologie all'avanguardia e un'attenzione particolare alla sicurezza.</p>
+    </section>
+
+    <section id="servizi" class="features">
+        <h2>Funzionalità</h2>
+        <div class="grid">
             <div>
                 <h3>API Intuitive</h3>
-                <p>Integrazione rapida con la tua piattaforma grazie a API moderne e documentazione completa.</p>
+                <p>Integrazione veloce e documentazione dettagliata per sviluppatori.</p>
             </div>
             <div>
                 <h3>Supporto Multivaluta</h3>
-                <p>Gestiamo pagamenti in numerose valute per consentirti di espanderti ovunque.</p>
+                <p>Gestiamo pagamenti in decine di valute per espandere il tuo mercato.</p>
+            </div>
+            <div>
+                <h3>Checkout personalizzabile</h3>
+                <p>Un'esperienza di acquisto fluida e in linea con il tuo brand.</p>
             </div>
             <div>
                 <h3>Analisi in tempo reale</h3>
-                <p>Dashboard avanzate per monitorare transazioni e performance del tuo business.</p>
+                <p>Dashboard per monitorare performance e flussi finanziari.</p>
             </div>
         </div>
     </section>
@@ -50,9 +59,10 @@
         <p>Adottiamo standard di cifratura avanzati e seguiamo le normative internazionali per garantire protezione e conformità a ogni pagamento.</p>
     </section>
 
-    <section id="contatti">
+    <section id="contatti" class="call">
         <h2>Contattaci</h2>
         <p>Vuoi saperne di più? Scrivici a <a href="mailto:info@paylixir.example">info@paylixir.example</a>.</p>
+        <a href="mailto:info@paylixir.example" class="cta-outline">Invia email</a>
     </section>
 
     <footer>
