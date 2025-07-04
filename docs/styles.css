@@ -129,3 +129,15 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+.pricing .grid div {
+    border-top: 3px solid var(--primary);
+}
+
+.faq .accordion p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq .accordion p + p {
+    margin-top: 1rem;
+}

@@ -2,9 +2,10 @@
 
 Questo repository contiene una versione di esempio del sito di presentazione di **PayLixir**, un Gateway di Pagamento a livello globale.
 
+Puoi visualizzare il sito dimostrativo anche all'indirizzo [paylixir.com](https://paylixir.com).
 Il sito si trova nella cartella `docs/` ed è pensato per essere pubblicato tramite GitHub Pages oppure visualizzato localmente aprendo `index.html` con un qualsiasi browser moderno.
 
-Il layout riprende lo stile di siti moderni come adyen.com con un'ampia sezione hero, una navigazione essenziale e varie sezioni descrittive.
+Il layout riprende lo stile di siti moderni con una sezione hero di impatto, navigazione essenziale e sezioni dedicate a funzionalit, rete globale, sicurezza, piani tariffari e FAQ.
 
 ## Struttura
 - `docs/index.html` – pagina principale con le sezioni descrittive
