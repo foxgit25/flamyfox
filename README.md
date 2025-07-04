@@ -9,4 +9,4 @@ Questo repository contiene un semplice sito web di presentazione per **PayLixir*
 
 ## Come visualizzare il sito
 
-Apri `index.html` in un browser moderno per vedere l'anteprima della pagina di presentazione.
+Per visualizzare la demo apri `paylixir/index.html` con un browser moderno. In alternativa puoi attivare GitHub Pages puntando alla cartella `paylixir/` per avere un anteprima online.
